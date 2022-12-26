@@ -3,12 +3,13 @@ body {
     font-size: 15px;
     background-color: hsl(36, 100%, 99%);
 }
+
 /*nav-bar*/
 
 .logo {
     font-size: 3rem;
     font-family: 'Noto Serif Display', serif;
-    font-weight: 900;
+    font-weight: 800;
     color: hsl(240, 100%, 5%);
 }
 .nav-link {
@@ -26,13 +27,15 @@ body {
    max-height: 250px;
 }
 h1 {
-    font-size: 2.5rem;
-    font-weight: 900;
-    width: 70%;
+    font-size: 2.8rem;
+    font-weight: 800;
+    width: 60%;
+   
 }
 .main-paragraph {
     color: hsl(236, 13%, 42%);
     font-size: .8rem;
+    width: 70%;
     
 }
 .red-btn {
@@ -55,7 +58,8 @@ h1 {
 .blue-box {
     background-color: hsl(240, 100%, 5%);
     color: hsl(233, 8%, 79%);
-    padding: 20px;
+    padding: 20px 0 20px 20px;
+    
     
 }
 .blue-box h2 {
@@ -68,14 +72,16 @@ h1 {
     color: #fff;
     font-weight: 600;
     font-size: 1rem;
+    padding: 10px 0;
 }
 .blue-box h4:hover{
     color:hsl(35, 77%, 62%) ;
 }
 
 .blue-box p {
-    font-size: .8rem;
+    font-size: .9rem;
     font-weight: 200;
+    width: 90%;
 }
 /*last row*/
 
@@ -86,6 +92,7 @@ h1 {
 }
 .last-row h3 {
     color: hsl(233, 8%, 79%);
+    font-weight: 700;
 }
 .last-row h4 {
     font-size: 1rem;
@@ -96,7 +103,7 @@ h1 {
     color: hsl(5, 85%, 63%)
 }
 .last-row p {
-    width: 70%;
+    width: 80%;
 }
 .header-mobile-img {
     display: none;
@@ -113,9 +120,23 @@ h1 {
         width: 100%;
         margin: 0 0 5%;
     }
-    .last-row p {
-        width: 90%;
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        width: 80%;
     }
-
+    .main-paragraph {
+        width: 85%;
+        margin-bottom: 15px !important;
+    }
+    .blue-box h2 {
+        margin-bottom: 10px;
+    }
+    .blue-box h4{
+        margin-bottom: 0;
+    }
+    .last-row p {
+        width: 85%;
+    }
     
 }
